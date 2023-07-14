@@ -11,7 +11,7 @@ function search(event) {
 }
 }
 
-const fs = require('fs');
+/*const fs = require('fs');
 const path = require('path');
 
 var form = document.getElementById("myForm");
@@ -32,17 +32,4 @@ form.addEventListener("submit", function(event) {
     return;
   }
 
-  // Speichern
-  var data = {
-    name: nameInput.value,
-    email: emailInput.value
-  };
-
-  var filePath = path.join('C:/Users/PC001/Desktop/website_mercedes/saved_customer_data' , 'daten.bin');
-  fs.writeFile(filePath, 'binary', function(err) {
-    if (err) throw err;
-    console.log('Daten wurden erfolgreich in der Datei gespeichert.');
-  });
-
-  form.reset();
-});
+});*/
